@@ -1,0 +1,28 @@
+{
+  "name": "wdio-starter",
+  "version": "0.1.0",
+  "description": "Sample WebdriverIO + cucumber test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/colinrotherham/wdio-starter.git"
+  },
+  "author": "Colin Rotherham",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.2",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "pm2": "^2.5.0",
+    "wdio-cucumber-framework": "^0.3.1",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.0",
+    "webdriverio": "^4.8.0",
+    "webpack": "^2.6.1"
+  }
+}
