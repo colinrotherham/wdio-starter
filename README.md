@@ -56,3 +56,13 @@ Scenario: User sees the Links page
 ```
 
 To skip a scenario, mark with `@skip` (see *wdio.conf.js*)
+
+### Browserstack
+If you have a Browserstack account, add your credentials as environment variables:  
+`BROWSERSTACK_USERNAME` and `BROWSERSTACK_ACCESS_KEY`
+
+Then run your tests on Browserstack instead:
+
+```sh
+npm test -- --browserstack
+```
