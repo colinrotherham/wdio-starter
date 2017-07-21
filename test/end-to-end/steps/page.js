@@ -14,7 +14,7 @@ export default function () {
     });
 
     this.When(/^I close the privacy policy overlay$/, async (matchLink) => {
-        return browser.click(`button=×`);
+        return browser.click(`button=I agree`);
     });
 
     this.When(/^I click the link '([^']*)?'$/, async (matchLink) => {
