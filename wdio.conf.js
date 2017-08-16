@@ -20,6 +20,9 @@ let config = {
 
     // Cucumber setup
     cucumberOpts: {
+        compiler: [
+            'js:babel-register'
+        ],
         require: [
             './test/end-to-end/steps'
         ]
@@ -35,9 +38,6 @@ let config = {
 
     // Run before tests
     before: function() {
-
-        // Enable ES6+ support
-        require('babel-register');
 
         // Default browser size
         browser.setViewportSize({
