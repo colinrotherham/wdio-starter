@@ -5,12 +5,8 @@ let config = {
 
     // Browsers
     capabilities: [
-        {
-            browserName: 'chrome',
-            chromeOptions: {
-                args: ['disable-extensions']
-            }
-        }
+        { browserName: 'chrome' },
+        { browserName: 'firefox' }
     ],
 
     // Test files
