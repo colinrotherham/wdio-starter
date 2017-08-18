@@ -13,12 +13,6 @@ export default function () {
         return page.goToUrl(matchHref);
     });
 
-    this.When(/^I close the privacy policy overlay$/, async (matchLink) => {
-        if (await browser.waitForExist(`button=I agree`, 5000)) {
-            return browser.click(`button=I agree`);
-        }
-    });
-
     this.When(/^I click the link '([^']*)?'$/, (matchLink) => {
         return browser.click(`a=${matchLink}`);
     });

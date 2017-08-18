@@ -6,7 +6,6 @@ Scenario: User sees the home page
 
 Scenario: User sees the Circuit Breaker page
     Given I go to the home page
-    When I close the privacy policy overlay
     When I click the link 'Features'
     Then I should see the title 'Feature - Polygon'
 
