@@ -20,7 +20,7 @@ let config = {
             'js:babel-register'
         ],
         require: [
-            './test/end-to-end/steps'
+            './test/end-to-end/steps/page'
         ]
     },
 

@@ -19,7 +19,7 @@
     "chai": "^4.0.2",
     "mocha": "^3.4.2",
     "pm2": "^2.5.0",
-    "wdio-cucumber-framework": "^0.3.1",
+    "wdio-cucumber-framework": "^1.0.1",
     "wdio-selenium-standalone-service": "0.0.9",
     "wdio-spec-reporter": "^0.1.0",
     "webdriverio": "^4.8.0",
