@@ -29,6 +29,8 @@ let config = {
     framework: 'cucumber',
     logLevel: 'error',
     reporters: ['spec'],
+    seleniumInstallArgs: { version: '3.4.0' },
+    seleniumArgs: { version: '3.4.0' },
     services: ['selenium-standalone'],
     sync: false,
 
