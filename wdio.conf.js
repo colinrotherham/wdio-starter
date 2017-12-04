@@ -35,13 +35,8 @@ let config = {
     sync: false,
 
     // Run before tests
-    before: function() {
-
-        // Default browser size
-        browser.setViewportSize({
-            width: 1280,
-            height: 768
-        });
+    before: async () => {
+        await browser.windowHandleFullscreen();
     }
 };
 
