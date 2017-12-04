@@ -17,7 +17,7 @@ let config = {
     // Cucumber setup
     cucumberOpts: {
         compiler: [
-            'js:babel-register'
+            'js:@babel/register'
         ],
         require: [
             './test/end-to-end/steps/page'
