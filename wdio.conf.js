@@ -1,5 +1,5 @@
 let config = {
-    baseUrl: 'https://www.polygon.com',
+    baseUrl: 'https://adactio.com',
     screenshotPath: './coverage/screenshots/',
     maxInstances: 10,
 
