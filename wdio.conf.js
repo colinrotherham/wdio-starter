@@ -21,7 +21,8 @@ let config = {
         ],
         require: [
             './test/end-to-end/steps/page'
-        ]
+        ],
+        tagExpression: 'not @skip',
     },
 
     coloredLogs: true,

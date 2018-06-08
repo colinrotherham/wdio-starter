@@ -41,3 +41,18 @@ Run the test scripts
 ```
 npm test
 ```
+
+Run individual scenarios marked with `@tag` etc
+```sh
+npm test -- --cucumberOpts.tagExpression=@tag
+```
+
+```cucumber
+@tag
+Scenario: User sees the Links page
+    Given I go to the home page
+    When I click the link 'Links'
+    Then I should see the title 'Adactio: Links'
+```
+
+To skip a scenario, mark with `@skip` (see *wdio.conf.js*)
