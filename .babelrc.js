@@ -4,8 +4,9 @@ module.exports = {
             shippedProposals: true,
             useBuiltIns: 'usage',
             targets: {
-                node: true
-            }
+                browsers: [],
+                node: true,
+            },
         }]
-    ]
+    ],
 }
