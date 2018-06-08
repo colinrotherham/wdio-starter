@@ -13,21 +13,18 @@
   "author": "Colin Rotherham",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "7.0.0-beta.46",
-    "@babel/preset-env": "7.0.0-beta.46",
-    "@babel/register": "7.0.0-beta.46",
-    "babel-loader": "^8.0.0-beta.2",
+    "@babel/core": "7.0.0-beta.49",
+    "@babel/preset-env": "7.0.0-beta.49",
+    "@babel/register": "7.0.0-beta.49",
+    "ajv": "^6.5.0",
+    "ajv-keywords": "^3.2.0",
+    "babel-loader": "^8.0.0-beta.3",
     "chai": "^4.1.2",
-    "mocha": "^5.1.1",
-    "pm2": "^2.10.3",
+    "mocha": "^5.2.0",
     "wdio-cucumber-framework": "^1.1.1",
     "wdio-selenium-standalone-service": "^0.0.10",
     "wdio-spec-reporter": "^0.1.4",
     "webdriverio": "^4.12.0",
-    "webpack": "^4.6.0"
-  },
-  "dependencies": {
-    "ajv": "^6.4.0",
-    "ajv-keywords": "^3.2.0"
+    "webpack": "^4.12.0"
   }
 }
