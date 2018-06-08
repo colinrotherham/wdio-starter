@@ -12,13 +12,13 @@ https://brew.sh/
 Via command prompt (administrator privileges).
 
 Install Node.js tooling
-```
+```sh
 brew install nodejs
 npm install -g npm@latest
 ```
 
 For Windows, install build tooling
-```
+```sh
 npm install -g --production windows-build-tools
 ```
 
@@ -31,14 +31,14 @@ For macOS, install build tooling:
 Via command prompt in the project directory (local user privileges).
 
 Install Node.js dependencies
-```
+```sh
 npm install
 ```
 
 ### Testing
 
 Run the test scripts
-```
+```sh
 npm test
 ```
 
