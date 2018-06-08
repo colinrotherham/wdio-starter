@@ -5,8 +5,25 @@ let config = {
 
     // Browsers
     capabilities: [
-        { browserName: 'chrome' },
-        { browserName: 'firefox' }
+        {
+            browserName: 'chrome',
+            chromeOptions: {
+                args: [
+                    '--disable-gpu',
+                    '--disable-setuid-sandbox',
+                    '--headless',
+                    '--no-sandbox',
+                ],
+            },
+        },
+        {
+            browserName: 'firefox',
+            'moz:firefoxOptions': {
+                args: [
+                    '-headless',
+                ],
+            },
+        },
     ],
 
     // Test files
