@@ -23,7 +23,7 @@
     "command-line-args": "^5.0.2",
     "mocha": "^5.2.0",
     "wdio-browserstack-service": "^0.1.16",
-    "wdio-cucumber-framework": "^1.1.1",
+    "wdio-cucumber-framework": "^2.2.6",
     "wdio-selenium-standalone-service": "^0.0.10",
     "wdio-spec-reporter": "^0.1.5",
     "webdriverio": "^4.13.2",
