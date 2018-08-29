@@ -25,7 +25,12 @@ npm install -g --production windows-build-tools
 For macOS, install build tooling:
 1. Download and install Xcode
 2. Xcode -> Preferences -> Downloads -> Command Line Tools
-3. `brew cask install java`
+3. Due to Selenium WebDriver issues on Java 10, install Java 8:
+
+```sh
+brew tap caskroom/versions
+brew cask install java8
+```
 
 ### Project setup
 Via command prompt in the project directory (local user privileges).
