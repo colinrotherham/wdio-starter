@@ -3,7 +3,7 @@ const args = require('command-line-args');
 // Allow command line overrides
 const flag = args([
     { name: 'browserstack', type: Boolean },
-]);
+], { partial: true });
 
 const config = {
     baseUrl: 'https://adactio.com',
