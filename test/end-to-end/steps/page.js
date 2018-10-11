@@ -5,19 +5,19 @@ import Page from '../pages/page';
 let expect = chai.expect;
 let page = new Page();
 
-Given(/^I go to the home page$/, () => {
+Given(/^I go to the home page$/, async () => {
     return page.goHome();
 });
 
-Given(/^I visit the URL '([^']*)?'$/, (matchHref) => {
+Given(/^I visit the URL '([^']*)?'$/, async matchHref => {
     return page.goToUrl(matchHref);
 });
 
-When(/^I click the link '([^']*)?'$/, (matchLink) => {
+When(/^I click the link '([^']*)?'$/, async matchLink => {
     return browser.click(`a=${matchLink}`);
 });
 
-Then(/^I should see the title '([^']*)?'$/, async (matchTitle) => {
+Then(/^I should see the title '([^']*)?'$/, async matchTitle => {
     let title = await page.getTitle();
-    expect(title).to.equal(matchTitle);
+    return expect(title).to.equal(matchTitle);
 });
