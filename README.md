@@ -37,7 +37,7 @@ Via command prompt in the project directory (local user privileges).
 
 Install Node.js dependencies
 ```sh
-npm install
+npm ci
 ```
 
 ### Testing
