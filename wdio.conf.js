@@ -85,7 +85,18 @@ if (flag.browserstack) {
     // Browserstack browsers
     config.capabilities = [
         {
-            device: 'Google Pixel',
+            browserName: 'android',
+            device: 'Google Pixel 3',
+            realMobile: true
+        },
+        {
+            browserName: 'android',
+            device: 'Samsung Galaxy S9',
+            realMobile: true
+        },
+        {
+            browserName: 'iPhone',
+            device: 'iPhone XS',
             realMobile: true
         },
         {
@@ -97,10 +108,6 @@ if (flag.browserstack) {
             browserName: 'firefox',
             os: 'Windows',
             os_version: '10'
-        },
-        {
-            browserName: 'iPhone',
-            os: 'OS X'
         },
         {
             browserName: 'internet explorer',
