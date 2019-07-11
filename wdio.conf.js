@@ -14,7 +14,7 @@ const config = {
     capabilities: [
         {
             browserName: 'chrome',
-            chromeOptions: {
+            'goog:chromeOptions': {
                 args: [
                     '--disable-gpu',
                     '--disable-setuid-sandbox',
@@ -40,11 +40,11 @@ const config = {
 
     // Cucumber setup
     cucumberOpts: {
-        compiler: [
-            'js:@babel/register'
-        ],
         require: [
             './test/end-to-end/steps/page'
+        ],
+        requireModule: [
+            '@babel/register'
         ],
         tagExpression: 'not @skip',
     },

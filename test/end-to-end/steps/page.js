@@ -14,7 +14,8 @@ Given(/^I visit the URL '([^']*)?'$/, async matchHref => {
 });
 
 When(/^I click the link '([^']*)?'$/, async matchLink => {
-    return browser.click(`a=${matchLink}`);
+    const link = $(`a=${matchLink}`);
+    return link.click();
 });
 
 Then(/^I should see the title '([^']*)?'$/, async matchTitle => {
