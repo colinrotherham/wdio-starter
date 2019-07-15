@@ -15,6 +15,6 @@ Scenario: User sees the Links page
     Then I should see the title 'Adactio: Links'
 
 Scenario: User sees the 404 page
-	Given I go to the home page
-    	But I visit the URL '/fdgdffg'
+    Given I go to the home page
+    But I visit the URL '/fdgdffg'
     Then I should see the title 'Adactio: 404'
