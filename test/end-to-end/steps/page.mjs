@@ -1,6 +1,6 @@
 import { Given, When, Then } from 'cucumber';
 import chai from 'chai';
-import Page from '../pages/page';
+import Page from '../pages/page.mjs';
 
 let expect = chai.expect;
 let page = new Page();

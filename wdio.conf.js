@@ -41,7 +41,7 @@ const config = {
     // Cucumber setup
     cucumberOpts: {
         require: [
-            './test/end-to-end/steps/page'
+            './test/end-to-end/steps/page.mjs'
         ],
         requireModule: [
             '@babel/register'
