@@ -6,8 +6,6 @@ Sample WebdriverIO + cucumber test project
 Install Homebrew (package manager for macOS)
 https://brew.sh/
 
-> For Windows, install [Chocolatey](https://chocolatey.org/) and replace the `brew` commands below with the `choco` equivalents.
-
 ### Tooling setup
 Via command prompt (administrator privileges).
 
@@ -15,11 +13,6 @@ Install Node.js tooling
 ```sh
 brew install nodejs
 npm install -g npm@latest
-```
-
-For Windows, install build tooling
-```sh
-npm install -g --production windows-build-tools
 ```
 
 For macOS, install build tooling:
