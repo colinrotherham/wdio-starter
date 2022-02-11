@@ -22,7 +22,7 @@
     "@wdio/local-runner": "^6.1.0",
     "@wdio/selenium-standalone-service": "^6.0.16",
     "@wdio/spec-reporter": "^6.0.16",
-    "ajv": "^6.12.2",
+    "ajv": "^6.12.3",
     "ajv-keywords": "^3.4.1",
     "babel-loader": "^8.1.0",
     "chai": "^4.2.0",
