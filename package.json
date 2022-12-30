@@ -28,7 +28,7 @@
     "chai": "^4.2.0",
     "command-line-args": "^5.1.1",
     "core-js": "^3.6.5",
-    "mocha": "^7.1.1",
+    "mocha": "^10.2.0",
     "webpack": "^4.42.1"
   },
   "dependencies": {}
